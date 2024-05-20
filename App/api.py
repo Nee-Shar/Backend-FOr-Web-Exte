@@ -74,7 +74,7 @@ app=FastAPI()
 
 @app.get("/")
 def helloworld():
-    return "Hello World"
+    return {'msg':"Hello World"}
 
 # @app.post("/add_user")
 # def add_user(user_data:UserData):
